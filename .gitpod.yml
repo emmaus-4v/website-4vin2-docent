@@ -1,6 +1,6 @@
 ports:
   - port: 8080
-    onOpen: open-browser
+    onOpen: notify
 tasks:
   - name: webserver
     command: npx http-server -c-1   
