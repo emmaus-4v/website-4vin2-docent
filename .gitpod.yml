@@ -1,9 +1,9 @@
 ports:
   - port: 8080
-    onOpen: notify
+    onOpen: open-browser
 tasks:
   - name: webserver
-    command: npx http-server -c-1   
+    command: npx --yes http-server -c-1 # webserver on port 8080 no cache
   - name: shell
     command: >
   
