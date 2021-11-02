@@ -3,7 +3,7 @@ ports:
     onOpen: open-browser
 tasks:
   - name: webserver
-    command: npx http-server ./ -p 8080 -c01   # webserver without cache
+    command: npx http-server ./ -p 8080 -c-1   # webserver without cache
   - name: shell
     command: >
   
